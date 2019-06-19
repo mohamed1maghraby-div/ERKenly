@@ -1,0 +1,83 @@
+/* style made by mohamed maghraby */
+
+/* scroll bar */
+#ascrail2000 { height: 70% !important;  width: 9px !important; transition: 1s;}
+.socroll_motion {right: 370px !important;}
+
+/* admin page  */
+body {background-color: rgba(0,0,0,0);}
+.full {background: #e5f0ee;-webkit-background-size: cover;-moz-background-size: cover;background-size: cover;-o-background-size: cover;}
+.admin_main_page { height: auto; color: #5fb3a5;}
+.admin-logo {float: left; padding: 0 .5%;}
+.admin-header-color {width: 97%; float: right; height: 23px !important;}
+
+.owner_header {height: 190px;}
+.owner_search_area {margin-top: 42px; }
+
+.owner_search_area_bg{background: #068e76; border-radius: 3px; width: 98%; height: 85px; box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.4); }
+.owner_search_area_bg_search{width: 98%; box-shadow: -4px 4px 4px rgba(0, 0, 0, 0.4); position: relative; top: 10px;left: -5px; border-radius: 3px;}
+.owner_search_area_bg input[type=search]{width: 88%; height: 45px; background: #fff; border-radius: 3px;  border: 0; box-shadow: inset 0 0 5px 5px #8883; padding-left: 12%;}
+.owner_search_area_bg_search hr {margin: 0px;border-left: 1px solid #a6dad1;height: 29px; position: absolute;right: 45px;top: 8px;}
+.owner_search_area_bg input[type=image]{display: inline-block; position: absolute;top: 10px; right: 12px;}
+
+.owner_active_button {float: left;  height: 45px !important;     display: flex !important;}
+.owner_active_button button{font-size: 15px !important; font-weight: 600;}
+.owner_acive_button_negative{background: #068e76; width: 10px; float: left; height: 100%;}
+.owner_acive_button_negative_main {background: #e5f0ee; height: 100%; border-radius: 0px 10px 0px 0px;}
+.owner_button {display: inline-block; width: auto; height: 35px; margin-right: 2px;     position: relative;}
+.owner_button button {width: 100%; height: 100%; background: #068e76; border: 0; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px; font-size: 10px; color: #fff;     box-shadow: 1px 6px 12px rgba(0, 0, 0, 0.4);}
+
+.person_info {border-left: 1px solid #88ccc0; height: 135px; margin-top: 23px;}
+.person_info img {border-radius: 50%; border: 5px solid #d0dbd9;  float: left;}
+.person_info_img {padding-left: 30px; width: 180px;height: 100%;float: left; }
+.person_info_word {padding-left: 30px; font-size: 22px; font-weight: 700; margin-top: 25px; margin-left: 25px;}
+.person_info_word h3 {margin: 2px 0;}
+.bottom-header {background: url(../image/bottom-header.png) no-repeat; width: 100%; height: 50px; background-size: cover;}
+.owner-footer{background: url(../image/footer.png) no-repeat; width: 100%; height: 50px; background-size: cover;}
+
+/*blocks*/
+.blocks {margin: 6px;}
+.blocks img {border: 6px solid #a0d6cd; float: left;}
+.blocks_word {width: 60%; float: left;}
+.blocks_word h3 {font-size: 130%; font-weight: 100; margin: 10px 0px 0px 13px;}
+.blocks_word p {font-size: 50%; margin-left: 15px;}
+.blocks_border {width: 1px; height: 85px; background: #a8dbd2; margin-right: 10px;}
+.blocks_number p {margin: 5px 0; font-weight: bold;}
+.blocks_width {width: 100%; background: #fff; border-radius: 3px; height: 104px; padding: 9px; display: inline-flex; box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.4);}
+
+/* media query */
+@media screen and (max-width: 2700px) {
+    .col-lg-4 {width: 32%;}
+}
+@media screen and (max-width: 1125px) {
+    .admin-header-color {width: 96%;}
+    .col-md-6 {width: 47%;}
+}
+@media screen and (max-width: 990px) {
+    .admin-header-color {width: 95%;}
+}
+@media screen and (max-width: 750px) {
+    .col-sm-6 {width: 99%;}
+    .owner_search_area {margin-bottom: 25px;}
+    .person_info {border-left: 0;}
+}
+@media screen and (max-width: 550px) {
+    .admin-header-color {width: 94%;}
+}
+@media screen and (max-width: 440px) {
+    .admin-header-color {width: 93%;}
+    .person_info_word{font-size: 18px;}
+}
+@media screen and (max-width: 375px) {
+    .admin-header-color {width: 91%;}
+    #ascrail2000 {right: 7px !important;}
+}
+@media screen and (max-width: 360px) {
+    .person_info_word{font-size: 15px;}
+}
+@media screen and (max-width: 320px) {
+    .person_info_word{font-size: 11px;}
+    .blocks_word h3 {font-size: 70%;}
+    .owner_button button{font-size: 8px;}
+    .owner_active_button button {font-size: 13px !important;}
+}

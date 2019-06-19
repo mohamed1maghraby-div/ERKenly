@@ -1,0 +1,79 @@
+/* style made by mohamed maghraby */
+
+/* scroll bar */
+#ascrail2000 { height: 70% !important;  width: 9px !important; transition: 1s;}
+.socroll_motion {right: 370px !important;}
+
+/* admin page  */
+body {background-color: rgba(0,0,0,0);}
+.full {background: #e5f0ee;-webkit-background-size: cover;-moz-background-size: cover;background-size: cover;-o-background-size: cover;}
+.admin_main_page { height: auto; color: #5fb3a5;}
+.admin-logo {float: left; padding: 0 .5%;}
+.admin-header-color {width: 97%; float: right; height: 23px !important;}
+.top_circle {margin-top: 50px; margin-left: -50px;}
+.bottm_circle {margin-top: 65px; }
+
+/* circle style */
+.ih-item {position: relative;-webkit-transition: all 0.35s ease-in-out;-moz-transition: all 0.35s ease-in-out;transition: all 0.35s ease-in-out;}
+.ih-item,.ih-item * {-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+.ih-item a {color: #333;}
+.ih-item a:hover {text-decoration: none;}
+.ih-item img {width: 100%;height: 100%;}
+.ih-item.circle {position: relative;width: 220px;height: 220px;border-radius: 50%;}
+.ih-item.circle .img {position: relative;width: 220px;height: 220px;border-radius: 50%;}
+.ih-item.circle .img:before {position: absolute;display: block;content: '';width: 100%;height: 100%;border-radius: 50%;box-shadow: inset 0 0 0 16px rgba(255, 255, 255, 0.6), 0 1px 2px rgba(0, 0, 0, 0.3);-webkit-transition: all 0.35s ease-in-out;-moz-transition: all 0.35s ease-in-out;transition: all 0.35s ease-in-out;}
+.ih-item.circle .img img {border-radius: 50%;}
+.ih-item.circle .info {position: absolute;top: 0;bottom: 0;left: 0;right: 0;text-align: center;border-radius: 50%;-webkit-backface-visibility: hidden;backface-visibility: hidden;}
+.ih-item.circle.effect1 .spinner {width: 230px;height: 230px;border: 10px solid rgb(5, 152, 126);border-right-color: rgb(160, 214, 205);border-bottom-color: rgb(160, 214, 205);border-radius: 50%;-webkit-transition: all 0.8s ease-in-out;-moz-transition: all 0.8s ease-in-out;transition: all 0.8s ease-in-out;}
+.ih-item.circle.effect1 .img {position: absolute;top: 10px;bottom: 0;left: 10px;right: 0;width: auto;height: auto;}
+.ih-item.circle.effect1 .img:before {display: none;}
+.ih-item.circle.effect1.colored .info {background: #1a4a72;background: rgba(26, 74, 114, 0.6);}
+.ih-item.circle.effect1 .info {top: 10px;bottom: 0;left: 10px;right: 0;background: #333333;background: rgba(0, 0, 0, 0.6);opacity: 0;-webkit-transition: all 0.8s ease-in-out;-moz-transition: all 0.8s ease-in-out;transition: all 0.8s ease-in-out;}
+.ih-item.circle.effect1 .info h3 {color: #fff;text-transform: uppercase;position: relative; letter-spacing: 2px;font-size: 20px;margin: 0 30px;padding: 68px 0 0 0;height: 110px;text-shadow: 0 0 1px white, 0 1px 2px rgba(0, 0, 0, 0.3);}
+.ih-item.circle.effect1 .info p {color: #bbb;padding: 10px 5px;font-style: italic;margin: 0 30px;font-size: 12px;border-top: 1px solid rgba(255, 255, 255, 0.5);}
+.ih-item.circle.effect1 a:hover .spinner {-webkit-transform: rotate(180deg);-moz-transform: rotate(180deg);-ms-transform: rotate(180deg);-o-transform: rotate(180deg);transform: rotate(180deg);}
+.ih-item.circle.effect1 a:hover .info {opacity: 1; }
+
+/* data entry page */
+.data_entry_menu ul {margin-top: 110px;}
+.data_entry_menu ul li {list-style: none; padding: 2px 20px;}
+.data_entry_menu ul li:hover{border-left: 1px solid #05987e;}
+.data_entry_menu ul li a {text-decoration: none; color: #05987e; }
+
+/* media query */
+
+@media screen and (max-width: 1920px) {
+    .top_circle {margin-left: 120px;}
+    .bottm_circle {margin-left: 120px;}
+}
+@media screen and (max-width: 1440px) {
+    .top_circle {margin-left: -50px;}
+    .bottm_circle {margin-left: -50px;}
+}
+@media screen and (max-width: 1125px) {
+    .admin-header-color {width: 96%;}
+}
+@media screen and (max-width: 990px) {
+    .top_circle {margin-left: 5%;}
+    .bottm_circle {margin-left: 5%;}
+    .admin-header-color {width: 95%;}
+}
+@media screen and (max-width: 765px) {
+    .small_align {margin-top: 20px;}
+}
+@media screen and (max-width: 550px) {
+    .admin-header-color {width: 94%;}
+    .small_align {width: 100%; margin-top: 0;}
+    .ih-item.circle{margin: 15px auto;}
+    .top_circle {margin-left: 0;}
+    .bottm_circle {margin-left: 0;}
+}
+@media screen and (max-width: 440px) {
+    .admin-header-color {width: 93%;}
+     .small_align { margin-top: 0;}
+}
+@media screen and (max-width: 375px) {
+    .admin-header-color {width: 91%;}
+    #ascrail2000 {right: 7px !important;}
+    .small_align { margin-top: 0;}
+}
